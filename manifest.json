@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Skibidi Converter",
+  "version": "1.0",
+  "description": "convert metrics: USA <-> EU(world)",
+  "permissions": [],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon_usa.png",
+      "48": "icon_usa.png",
+      "128": "icon_usa.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      }
+    }
+  }
+}

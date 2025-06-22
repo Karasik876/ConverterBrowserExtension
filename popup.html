@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Скибиди Конвертатор</title>
+</head>
+<body>
+  <h2>К.О.Н.В.Е.Р.Т.И.Р.О.В.А.Т.Ь</h2>
+  <div>
+    <label><input type="radio" name="mode" value="US" id="modeUS" checked> US → EU</label>
+    <label><input type="radio" name="mode" value="EU" id="modeEU"> EU → US</label>
+  </div>
+
+  <label for="fromUnit">Из:</label>
+  <select id="fromUnit">
+  </select>
+
+  <label for="toUnit">В:</label>
+  <select id="toUnit">
+  </select>
+
+  <label for="value"></label><input type="text" id="value" placeholder="Введите значение" />
+  <button id="convertBtn">Конвертировать</button>
+
+  <div id="result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
